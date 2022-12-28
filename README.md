@@ -80,7 +80,10 @@ Open MongoDB Compass and use Mongo_URI given below
 
 # API Documentation
 
-This API Documentation deals with the specifications of endpoints used in the full-stack project named the 'Book that Show' App. It has SIGN UP and SIGN IN API to deal with user authentication. When new users are successfully signed up, they will receive a token which needs to be entered under the Headers section of Postman, where the key:auth-token and value: token, to Sign-in. After successfully signing in, the user will be re-directed to Tickets Booking page. It has 2 methods for Movie Ticket Booking: GET and POST. The GET method will fetch the Last Booking details from the database associated with the user and display them under their respective section. The POST method will allow users to book movie tickets and store data in the database. An in-depth understanding of the usage of API endpoints is mentioned below.
+- This API Documentation deals with the specifications of endpoints used in the full-stack project named the 'Book that Show' App. It has SIGN UP and SIGN IN API to deal with user authentication. 
+- When new users are successfully signed up, they will receive a token. To book new tickets, view booking details,etc, this token needs to be entered under the Headers section of Postman, where the key: auth-token and value: token. 
+- After successfully signing in, the user will be re-directed to Tickets Booking page. It has 2 methods for Movie Ticket Booking: GET and POST. 
+- The GET method will fetch the Last Booking details from the database associated with the user and display them under their respective section. The POST method will allow users to book movie tickets and store data in the database. An in-depth understanding of the usage of API endpoints is mentioned below.
 
 ## SignUp
 
