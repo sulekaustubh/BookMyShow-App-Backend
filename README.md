@@ -85,10 +85,14 @@ This API Documentation deals with the specifications of endpoints used in the fu
 ## SignUp
 
 Used to provide token to newly registered users.  
-**URL if using Local Host** : `http://localhost:8080/users/signup` <br>
-**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signup` <br>
-**Method** : `POST`  
+**URL if using Local Host** : `http://localhost:8080/users/signup`
+
+**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signup`
+
+**Method** : `POST`
+
 **Auth required** : NO  
+
 **Data constraints**
 
 ```json
@@ -149,12 +153,17 @@ Used to provide token to newly registered users.
 
 ## SignIn
 
-Get the details of the currently Authenticated User.  
-.  
-**URL if using Local Host** : [**http://localhost:8080/users/signin**](http://localhost:8080/users/signin) <br>
-**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signin` <br>
+Get the details of the currently Authenticated User.
+
+<!-- **URL if using Local Host** : [**http://localhost:8080/users/signin**](http://localhost:8080/users/signin) -->
+**URL if using Local Host** : `http://localhost:8080/users/signin`
+
+**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signin`
+
 **Method** : `POST`
+
 **Auth required** : `NO`
+
 **Data constraints**
 
 ```json
@@ -232,7 +241,8 @@ The GET method is a HTTP method that is applied while requesting information fro
 
 **Request method**: `GET`
 
-**Request URL**: `http://localhost:8080/api/booking`
+**URL if using Local Host**: `http://localhost:8080/api/booking`
+
 **URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/api/booking`
 
 **Auth required** : YES
@@ -319,7 +329,9 @@ POST is an HTTP method designed to send data to the server from an HTTP client. 
 
 **Request method**: `POST`
 
-**Request URL**: [**http://localhost:8080/api/booking**](http://localhost:8080/api/booking)
+<!-- **URL if using Local Host**: [**http://localhost:8080/api/booking**](http://localhost:8080/api/booking) -->
+**URL if using Local Host** : `http://localhost:8080/api/booking`
+
 **URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/api/booking`
 
 **Auth required** : `YES`
