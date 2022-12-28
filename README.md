@@ -80,12 +80,13 @@ Open MongoDB Compass and use Mongo_URI given below
 
 # API Documentation
 
-This API Documentation deals with the specifications of endpoints used in the full-stack project named the 'Book that Show' App. It has SIGN UP and SIGN IN API to deal with user authentication. When new users are successfully signed up, they will receive a token which needs to be entered under the Headers section of Postman, whereas the key: auth-key and value: token, to Sign-in. After successfully signing in, the user will be re-directed to Tickets Booking page. It has 2 methods for Movie Ticket Booking: GET and POST. The GET method will fetch the Last Booking details from the database associated with the user and display them under their respective section. The POST method will allow users to book movie tickets and store data in the database. An in-depth understanding of the usage of API endpoints is mentioned below.
+This API Documentation deals with the specifications of endpoints used in the full-stack project named the 'Book that Show' App. It has SIGN UP and SIGN IN API to deal with user authentication. When new users are successfully signed up, they will receive a token which needs to be entered under the Headers section of Postman, where the key:auth-token and value: token, to Sign-in. After successfully signing in, the user will be re-directed to Tickets Booking page. It has 2 methods for Movie Ticket Booking: GET and POST. The GET method will fetch the Last Booking details from the database associated with the user and display them under their respective section. The POST method will allow users to book movie tickets and store data in the database. An in-depth understanding of the usage of API endpoints is mentioned below.
 
 ## SignUp
 
 Used to provide token to newly registered users.  
-**URL** : `http://localhost:8080/users/signup`  
+**URL** : `http://localhost:8080/users/signup`
+**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signup`
 **Method** : `POST`  
 **Auth required** : NO  
 **Data constraints**
@@ -151,6 +152,7 @@ Used to provide token to newly registered users.
 Get the details of the currently Authenticated User.  
 .  
 **URL** : [**http://localhost:8080/users/signin**](http://localhost:8080/users/signin)
+**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signin`
 
 **Method** : `POST`
 
@@ -233,7 +235,8 @@ The GET method is a HTTP method that is applied while requesting information fro
 
 **Request method**: `GET`
 
-**Request URI**: `http://localhost:8080/api/booking`
+**Request URL**: `http://localhost:8080/api/booking`
+**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/api/booking`
 
 **Auth required** : YES
 
@@ -319,7 +322,8 @@ POST is an HTTP method designed to send data to the server from an HTTP client. 
 
 **Request method**: `POST`
 
-**Request URI**: [**http://localhost:8080/api/booking**](http://localhost:8080/api/booking)
+**Request URL**: [**http://localhost:8080/api/booking**](http://localhost:8080/api/booking)
+**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/api/booking`
 
 **Auth required** : `YES`
 
