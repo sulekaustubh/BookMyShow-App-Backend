@@ -18,6 +18,7 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
+( The database is deployed on MongoDB Atlas. And the backend server is deployed on Vercel. Since, you don't have to create a local host, you can skip the following steps under 'Getting Started'. You can use Postman to make API calls to/from the database. More on that under 'API Documentation'. )
   
   ## Getting Started
 
