@@ -85,7 +85,7 @@ This API Documentation deals with the specifications of endpoints used in the fu
 ## SignUp
 
 Used to provide token to newly registered users.  
-**URL** : `http://localhost:8080/users/signup`
+**URL** : `http://localhost:8080/users/signup` <br>
 **URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signup`
 **Method** : `POST`  
 **Auth required** : NO  
