@@ -85,8 +85,8 @@ This API Documentation deals with the specifications of endpoints used in the fu
 ## SignUp
 
 Used to provide token to newly registered users.  
-**URL** : `http://localhost:8080/users/signup` <br>
-**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signup`
+**URL if using Local Host** : `http://localhost:8080/users/signup` <br>
+**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signup` <br>
 **Method** : `POST`  
 **Auth required** : NO  
 **Data constraints**
@@ -151,8 +151,8 @@ Used to provide token to newly registered users.
 
 Get the details of the currently Authenticated User.  
 .  
-**URL** : [**http://localhost:8080/users/signin**](http://localhost:8080/users/signin)
-**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signin`
+**URL if using Local Host** : [**http://localhost:8080/users/signin**](http://localhost:8080/users/signin) <br>
+**URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signin` <br>
 
 **Method** : `POST`
 
