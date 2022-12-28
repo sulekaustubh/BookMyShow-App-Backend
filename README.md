@@ -153,11 +153,8 @@ Get the details of the currently Authenticated User.
 .  
 **URL if using Local Host** : [**http://localhost:8080/users/signin**](http://localhost:8080/users/signin) <br>
 **URL if using Postman** : `https://bookmyshow-project-backend.vercel.app/users/signin` <br>
-
 **Method** : `POST`
-
 **Auth required** : `NO`
-
 **Data constraints**
 
 ```json
